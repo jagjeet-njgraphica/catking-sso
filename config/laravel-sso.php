@@ -23,7 +23,7 @@ return [
      |
      */
 
-    'usersModel' => \App\User::class,
+    'usersModel' => \App\Models\User::class,
     'brokersModel' => IJagjeet\LaravelSSO\Models\Broker::class,
     'brokersUserModel' => IJagjeet\LaravelSSO\Models\BrokerUser::class,
 
